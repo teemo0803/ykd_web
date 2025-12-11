@@ -1,129 +1,80 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!-- Website template by freewebsitetemplates.com -->
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Practices - Law Firm</title>
-	<link rel="stylesheet" href="../assets/css/style.css" type="text/css">
-</head>
-<body>
-	<div id="header">
-		<div class="clearfix">
-			<div class="logo">
-				<a href="../index.html"><img src="../assets/images/logo.png" alt="LOGO" height="52" width="362"></a>
-			</div>
-			<ul class="navigation">
-				<li>
-					<a href="../index.html">Home</a>
-				</li>
-				<li>
-					<a href="about.html">About</a>
-				</li>
-				<li class="active">
-					<a href="practices.html">Practices</a>
-				</li>
-				<li>
-					<a href="lawyers.html">Our Lawyers</a>
-				</li>
-				<li>
-					<a href="news.html">News</a>
-					<div>
-						<a href="singlepost.html">News Single Post</a>
-					</div>
-				</li>
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<div id="contents">
-		<div class="clearfix">
-			<div class="sidebar">
-				<div>
-					<h2>留学方案</h2>
-					<ul>
-						<li>
-							<a href="post.html">香港副学士</a>
-						</li>
-						<li>
-							<a href="post.html">香港学士</a>
-						</li>
-						<li>
-							<a href="post.html">香港硕士</a>
-						</li>
-					</ul>
-				</div>
-				<div>
-					<h2>香港升学优势</h2>
-					<p>
-						&ldquo;发达程度：
-全球城市综合竞争力排名香港第七位
-留学美誉度：
-全球最佳留学城市排名
-香港第二十二位
-安全程度：
-全球最安全城市排名
-安全的食物、清新的空气、洁净的水源
-香港第二十位(中国上榜城市第一)&rdquo; <span></span>
-					</p>
-				</div>
-			</div>
-			<div class="main">
-				<h1>Detail Sample Page</h1>
-				<div class="frame3">
-					<div class="box">
-						<img src="../assets/images/laughing.jpg" alt="Img" height="199" width="584">
-					</div>
-				</div>
-				<p>
-					根据学生自身情况和需求，语言考试提升培训，提供最优匹配院校及专业、名校面试技巧辅导，
-根据申请学校特点优化文书，及时提交、跟进申请进度，提供专业文书写作指导服务，帮助学生完成信息反馈工作达到低门槛上名校。
-				</p>
-				<p>
-					You can remove any link to our website from this website template, you're free to use this website template without linking back to us. If you're having problems editing this website template, then don't hesitate to ask for help on the <a href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div id="footer">
-		<div class="clearfix">
-			<div class="section">
-				<h4>“开启你的世界名校之旅”</h4>
-				<p>
-					英萃顶尖 科达久远
-				</p>
-			</div>
-			<div class="section contact">
-				<h4>联系我们</h4>
-				<p>
-					<span>地址:</span> 中国广东省深圳市福田区泰然七路1号博今国际A座1903
-				</p>
-				<p>
-					<span>联系电话:</span> +86-1990769 5745
-				</p>
-				<p>
-					<span>邮箱:</span> info@saterh.cn
-				</p>
-			</div>
-			<div class="section">
-				<h4>SEND US A MESSAGE</h4>
-				<p>
-					If you're having problems editing this website template, then don't hesitate to ask for help on the Forums.
-				</p>
-				<a href="http://www.freewebsitetemplates.com/misc/contact/" class="subscribe">Click to send us an email</a>
-			</div>
-		</div>
-		<div id="footnote">
-			<div class="clearfix">
-				<div class="connect">
-					<a href="http://freewebsitetemplates.com/go/facebook/" class="facebook"></a><a href="http://freewebsitetemplates.com/go/twitter/" class="twitter"></a><a href="http://freewebsitetemplates.com/go/googleplus/" class="googleplus"></a><a href="http://pinterest.com/fwtemplates/" class="pinterest"></a>
-				</div>
-				<p>
-					© Copyright 2023 Manes Winchester. All Rights Reserved.
-				</p>
-			</div>
-		</div>
-	</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Practices - Law Firm</title>
+    <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
+  </head>
+  <body>
+    <div id="header-placeholder"></div>
+    <script>
+      fetch("../components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header-placeholder").innerHTML = data;
+        });
+    </script>
+    <div id="contents">
+      <div class="clearfix">
+        <div class="sidebar">
+          <div>
+            <h2>留学方案</h2>
+            <ul>
+              <li>
+                <a href="post.html">香港副学士</a>
+              </li>
+              <li>
+                <a href="post.html">香港学士</a>
+              </li>
+              <li>
+                <a href="post.html">香港硕士</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2>香港升学优势</h2>
+            <p>
+              &ldquo;发达程度： 全球城市综合竞争力排名香港第七位 留学美誉度：
+              全球最佳留学城市排名 香港第二十二位 安全程度： 全球最安全城市排名
+              安全的食物、清新的空气、洁净的水源
+              香港第二十位(中国上榜城市第一)&rdquo; <span></span>
+            </p>
+          </div>
+        </div>
+        <div class="main">
+          <h1>Detail Sample Page</h1>
+          <div class="frame3">
+            <div class="box">
+              <img
+                src="../assets/images/laughing.jpg"
+                alt="Img"
+                height="199"
+                width="584"
+              />
+            </div>
+          </div>
+          <p>
+            根据学生自身情况和需求，语言考试提升培训，提供最优匹配院校及专业、名校面试技巧辅导，
+            根据申请学校特点优化文书，及时提交、跟进申请进度，提供专业文书写作指导服务，帮助学生完成信息反馈工作达到低门槛上名校。
+          </p>
+          <p>
+            You can remove any link to our website from this website template,
+            you're free to use this website template without linking back to us.
+            If you're having problems editing this website template, then don't
+            hesitate to ask for help on the
+            <a href="http://www.freewebsitetemplates.com/forums/">Forums</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="footer-placeholder"></div>
+    <script>
+      fetch("../components/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-placeholder").innerHTML = data;
+        });
+    </script>
+  </body>
 </html>
