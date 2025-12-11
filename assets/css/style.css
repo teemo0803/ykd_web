@@ -124,7 +124,8 @@ img {
 }
 /*------------ HEADER ------------*/
 #header {
-	background: #4e5944 url(../images/bg-header.jpg) repeat-x left bottom;
+	background: #fff;
+	/* background: #383636; */
 	padding: 40px 0 46px;
 }
 /** logo **/
@@ -145,10 +146,10 @@ img {
 	position: relative;
 }
 .navigation li > a {
-	color: #b8c6ac;
-	font: bold 13px/24px Times, "Times New Roman", serif;
+	color: #383636;
+	font: bold 12px/24px Times, "Times New Roman", serif;
 	text-decoration: none;
-	text-shadow: 1px 1px #000;
+	text-shadow: 1px 1px #958383;
 	text-transform: uppercase;
 }
 .navigation li.active > a, .navigation > a:hover {
@@ -570,12 +571,12 @@ p a:hover {
 	text-transform: uppercase;
 }
 #footnote {
-	background: url(../images/bg-footnote.jpg) repeat-x left top;
+	background: #fff;
 	border-top: 1px solid #fff;
 	padding: 6px 0 3px;
 }
 #footnote p {
-	color: #b5c1aa;
+	color: #383636;
 	font: 11px/30px Arial, Helvetica, sans-serif;
 	margin: 0;
 	padding-right: 10px;
