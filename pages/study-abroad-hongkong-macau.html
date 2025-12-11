@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Practices - Law Firm</title>
+    <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
+  </head>
+  <body>
+    <div id="header-placeholder"></div>
+    <script>
+      fetch("../components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header-placeholder").innerHTML = data;
+        });
+    </script>
+    <div id="contents">
+      <div class="clearfix">
+        <div class="sidebar">
+          <div>
+            <h2>留学方案</h2>
+            <ul>
+              <li>
+                <a href="associate-degree-hongkong.html">香港副学士</a>
+              </li>
+              <li>
+                <a href="bachelors-degree-hongkong.html">香港学士</a>
+              </li>
+              <li>
+                <a href="masters-degree-hongkong.html">香港硕士</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2>香港升学优势</h2>
+            <p>
+              &ldquo;发达程度： 全球城市综合竞争力排名香港第七位 留学美誉度：
+              全球最佳留学城市排名 香港第二十二位 安全程度： 全球最安全城市排名
+              安全的食物、清新的空气、洁净的水源
+              香港第二十位(中国上榜城市第一)&rdquo; <span></span>
+            </p>
+          </div>
+        </div>
+        <div class="main">
+          <h1>香港留学</h1>
+          <p>
+            根据学生自身情况和需求，语言考试提升培训，提供最优匹配院校及专业、名校面试技巧辅导，
+            根据申请学校特点优化文书，及时提交、跟进申请进度，提供专业文书写作指导服务，帮助学生完成信息反馈工作达到低门槛上名校。
+          </p>
+          <ul class="practices">
+            <li class="frame5">
+              <a href="post.html" class="box"
+                ><img
+                  src="../assets/images/prenuptial.jpg"
+                  height="198"
+                  width="265"
+                /><span>香港副学士</span></a
+              >
+            </li>
+            <li class="frame5">
+              <a href="post.html" class="box"
+                ><img
+                  src="../assets/images/bride.jpg"
+                  height="198"
+                  width="265"
+                /><span>香港学士</span></a
+              >
+            </li>
+            <li class="frame5">
+              <a href="post.html" class="box"
+                ><img
+                  src="../assets/images/divorce.jpg"
+                  height="198"
+                  width="265"
+                /><span>香港硕士</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="footer-placeholder"></div>
+    <script>
+      fetch("../components/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-placeholder").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>

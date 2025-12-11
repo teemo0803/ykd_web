@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Practices - Law Firm</title>
+    <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
+  </head>
+  <body>
+    <div id="header-placeholder"></div>
+    <script>
+      fetch("../components/header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header-placeholder").innerHTML = data;
+        });
+    </script>
+    <div id="contents">
+      <div class="clearfix">
+        <div class="sidebar">
+          <div>
+            <h2>留学方案</h2>
+            <ul>
+              <li>
+                <a href="associate-degree-hongkong.html">香港副学士</a>
+              </li>
+              <li>
+                <a href="bachelors-degree-hongkong.html">香港学士</a>
+              </li>
+              <li>
+                <a href="masters-degree-hongkong.html">香港硕士</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2>香港升学优势</h2>
+            <p>
+              &ldquo;发达程度： 全球城市综合竞争力排名香港第七位 留学美誉度：
+              全球最佳留学城市排名 香港第二十二位 安全程度： 全球最安全城市排名
+              安全的食物、清新的空气、洁净的水源
+              香港第二十位(中国上榜城市第一)&rdquo; <span></span>
+            </p>
+          </div>
+        </div>
+        <div class="main">
+          <h1>香港硕士</h1>
+          <div class="frame3">
+            <div class="box">
+              <img
+                src="../assets/images/laughing.jpg"
+                alt="Img"
+                height="199"
+                width="584"
+              />
+            </div>
+          </div>
+          <p>
+            针对香港硕士申请，我们提供一站式专业留学服务。从语言培训到院校专业匹配，从面试技巧辅导到申请文书优化，
+            我们全程跟进每一个环节，确保申请材料高质量准时提交。凭借对香港教育体系的深入了解和丰富的成功案例经验，
+            我们致力于帮助学生以最优化的条件进入理想的香港高校，实现名校梦想。
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="footer-placeholder"></div>
+    <script>
+      fetch("../components/footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-placeholder").innerHTML = data;
+        });
+    </script>
+  </body>
+</html>
