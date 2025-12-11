@@ -389,7 +389,6 @@ p a:hover {
 	position: absolute;
 	bottom: 21px;
 	left: 8px;
-	*left: 6px;
 }
 .practices li a:hover span {
 	background-color: #393939;
