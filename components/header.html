@@ -1,5 +1,12 @@
 <div id="header">
   <div class="clearfix">
+    <!-- 语言选择器移到导航栏上方 -->
+    <div class="language-switcher-top">
+      <a href="#" class="lang-selector active" data-lang="zh-CN" onclick="switchLanguage('zh-CN'); return false;">中</a>
+      <a href="#" class="lang-selector" data-lang="zh-TW" onclick="switchLanguage('zh-TW'); return false;">繁</a>
+      <a href="#" class="lang-selector" data-lang="en" onclick="switchLanguage('en'); return false;">En</a>
+    </div>
+    
     <div class="logo">
       <a href="../index.html"
         ><img
@@ -27,11 +34,6 @@
       </li>
       <li>
         <a href="../pages/contact.html" data-i18n="header.contact">联系我们</a>
-      </li>
-      <li class="language-switcher">
-        <a href="#" class="lang-selector active" data-lang="zh-CN" onclick="switchLanguage('zh-CN'); return false;">中</a>
-        <a href="#" class="lang-selector" data-lang="zh-TW" onclick="switchLanguage('zh-TW'); return false;">繁</a>
-        <a href="#" class="lang-selector" data-lang="en" onclick="switchLanguage('en'); return false;">En</a>
       </li>
     </ul>
   </div>

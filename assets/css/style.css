@@ -146,7 +146,33 @@ img {
 	position: relative;
 }
 
-/* Language Switcher */
+/* 顶部语言切换器 */
+.language-switcher-top {
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+.language-switcher-top .lang-selector {
+	color: #383636;
+	font: bold 14px/24px Times, "Times New Roman", serif;
+	text-decoration: none;
+	text-shadow: 1px 1px #958383;
+	text-transform: uppercase;
+	margin: 0 5px;
+	padding: 2px 8px;
+	border-radius: 3px;
+}
+
+.language-switcher-top .lang-selector.active {
+	background-color: #383636;
+	color: white;
+}
+
+.language-switcher-top .lang-selector:hover {
+	color: #728063;
+}
+
+/* 导航栏中的语言切换器（保持原有样式以防需要） */
 .language-switcher {
 	position: relative;
 	margin-left: 20px;
@@ -171,6 +197,7 @@ img {
 .language-switcher .lang-selector:hover {
 	color: #728063;
 }
+
 .navigation li > a {
 	color: #383636;
 	font: bold 16px/24px Times, "Times New Roman", serif;
