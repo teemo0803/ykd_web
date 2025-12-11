@@ -3,8 +3,9 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>联系我们 - 英科达教育</title>
+    <title data-i18n="contact.title">联系我们 - 英科达教育</title>
     <link rel="stylesheet" href="../assets/css/style.css" type="text/css" />
+    <script src="../assets/js/i18n.js"></script>
   </head>
   <body>
     <div id="header-placeholder"></div>
@@ -19,41 +20,41 @@
       <div class="clearfix">
         <div class="sidebar">
           <div>
-            <h2>联系信息</h2>
+            <h2 data-i18n="contact.contact_info">联系信息</h2>
             <ul class="contact">
               <li>
                 <p>
-                  <span class="home"></span> <em>深圳英科达教育科技有限公司</em> 中国广东省深圳市福田区泰然七路1号博今国际A座1903
+                  <span class="home"></span> <em data-i18n="contact.company_name">深圳英科达教育科技有限公司</em> <span data-i18n="contact.address">中国广东省深圳市福田区泰然七路1号博今国际A座1903</span>
                 </p>
               </li>
               <li>
-                <p class="phone">电话: +86-19907695745</p>
+                <p class="phone"><span data-i18n="contact.phone_label">电话:</span> <span data-i18n="contact.phone">+86-19907695745</span></p>
               </li>
               <li>
-                <p class="fax">微信: YKD_global</p>
+                <p class="fax"><span data-i18n="contact.wechat_label">微信:</span> <span data-i18n="contact.wechat">YKD_global</span></p>
               </li>
               <li>
-                <p class="mail">邮箱: info@saterh.cn</p>
+                <p class="mail"><span data-i18n="contact.email_label">邮箱:</span> <span data-i18n="contact.email">info@saterh.cn</span></p>
               </li>
             </ul>
           </div>
         </div>
         <div class="main">
-          <h1>联系我们</h1>
-          <h2>发送快速消息</h2>
-          <p>
+          <h1 data-i18n="header.contact">联系我们</h1>
+          <h2 data-i18n="contact.quick_message_title">发送快速消息</h2>
+          <p data-i18n="contact.quick_message_desc">
             如果您对我们有任何疑问或需要咨询，请填写以下表单，我们会尽快回复您。
           </p>
           <form action="../index.html" method="post" class="message">
-            <label>姓名</label>
-            <input type="text" value="" />
-            <label>联系电话</label>
-            <input type="text" value="" />
-            <label>电子邮箱</label>
-            <input type="text" value="" />
-            <label>留言内容</label>
-            <textarea></textarea>
-            <input type="submit" value="发送消息" />
+            <label data-i18n="contact.name_label">姓名</label>
+            <input type="text" value="" data-i18n="contact.name_label" placeholder="姓名"/>
+            <label data-i18n="contact.phone_input_label">联系电话</label>
+            <input type="text" value="" data-i18n="contact.phone_input_label" placeholder="联系电话"/>
+            <label data-i18n="contact.email_input_label">电子邮箱</label>
+            <input type="text" value="" data-i18n="contact.email_input_label" placeholder="电子邮箱"/>
+            <label data-i18n="contact.message_label">留言内容</label>
+            <textarea data-i18n="contact.message_label" placeholder="留言内容"></textarea>
+            <input type="submit" value="发送消息" data-i18n="[value]contact.send_button"/>
           </form>
         </div>
       </div>

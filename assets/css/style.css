@@ -145,6 +145,32 @@ img {
 	margin-left: 30px;
 	position: relative;
 }
+
+/* Language Switcher */
+.language-switcher {
+	position: relative;
+	margin-left: 20px;
+}
+
+.language-switcher .lang-selector {
+	color: #383636;
+	font: bold 14px/24px Times, "Times New Roman", serif;
+	text-decoration: none;
+	text-shadow: 1px 1px #958383;
+	text-transform: uppercase;
+	margin: 0 5px;
+	padding: 2px 8px;
+	border-radius: 3px;
+}
+
+.language-switcher .lang-selector.active {
+	background-color: #383636;
+	color: white;
+}
+
+.language-switcher .lang-selector:hover {
+	color: #728063;
+}
 .navigation li > a {
 	color: #383636;
 	font: bold 16px/24px Times, "Times New Roman", serif;
